@@ -1,0 +1,53 @@
+body {border: 3px solid black;}
+
+header { background-color: #F0F8FF;
+         background-image: url("../img/dog-header.png");
+         background-size: cover;
+         background-position: center center;
+         background-repeat: no-repeat;
+         padding: 140px 0px 100px;
+         color: white;
+         
+       }
+
+.first-section{ background-color: white;}
+
+.section{ padding: 60px 0 40px } 
+
+@media (min-width: 576px) {
+	h1 {
+		font-size: 48px;
+	}
+}
+
+@media (min-width: 576px) {
+	.section {
+		padding: 100px 0;
+	}
+}
+
+.second-section {
+	background-color: #FBFBFB;
+}
+
+.second-section p {
+	color: #9DA2A6;
+}
+
+.second-section img {
+	height: 75px;
+	margin: 25px 0 10px;
+	width: 75px;
+}
+
+.nav-item {
+	margin: 10px 16px;
+}
+
+.navbar-brand img {
+	height: 46px;
+	margin-right: 8px;
+	width: 46px;
+}
+
+            
